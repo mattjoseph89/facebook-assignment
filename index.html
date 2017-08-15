@@ -3,6 +3,7 @@
 <head>
   <title>Facebook</title>
   <link rel="stylesheet" type="text/css" href="styles.css">
+  <script type="text/javascript" src="script.js"></script>
 </head>
 <body>
 
@@ -26,6 +27,7 @@
 
       <div class="post__actions">
         <a href="#" class="action action--like">Like</a>
+        <a href="#" class="action action--unlike" style="display: none">Unlike</a>
         <a href="#" class="action action--comment">Comment</a>
         <a href="#" class="action action--share">Share</a>
       </div>
@@ -33,7 +35,7 @@
 
     <div class="post__details">
       <div class="post__info">
-        <span>28 likes</span>
+        <span class="likeability"> 28 likes </span>
         <span>3 comments</span>
       </div>
 
@@ -365,6 +367,8 @@
     <div class="modal__body">Nunc nec fermentum dolor. Duis at iaculis turpis. Sed rutrum elit ac egestas dapibus. Duis nec consequat enim.</div>
   </div>
 </div>
+
+print like_plus
 
 </body>
 </html>
