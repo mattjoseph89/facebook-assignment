@@ -1,26 +1,24 @@
-window.addEventListener("load", function(){
-  debugger
+// like/unlike button functionality
 
-  // 1. Get the DOM element which will be clicked.
+window.addEventListener("load", function(){
+
   var like_button = document.getElementsByClassName("action action--like")[0];
-  // var unlike_button=document.getElementsByClassName("action action--unlike")
-  
-  // 2. Add a listener for the 'click' event onto that element.
+
   like_button.addEventListener("click", function(){
 
-    // 3. The block for the listener should get the DOM
-    //    element containing the text to do the following.
-    var like_plus = parseInt(document.getElementsByClassName("likeability"));
-
-    // 4. Modify that DOM element's integer to  increase by one
-    (like_plus+1);
-
-    // 5. Also modify the DOM to hide the "like button" link.
-    like_button.style.display = "none";
-
-  });
-  
+	if  (like_button.innerHTML==="Like"){
+		like_button.innerHTML="Unlike"
+		var like_plus = document.getElementsByClassName("likeability")[0].textContent;
+    	newlikes=parseInt(like_plus)+1;
+    	document.getElementsByClassName("likeability")[0].innerHTML = newlikes + " likes";
+		}
+	else 
+		{like_button.innerHTML="Like"
+		var like_minus = document.getElementsByClassName("likeability")[0].textContent;
+    	newlikes=parseInt(like_minus)-1;
+    	document.getElementsByClassName("likeability")[0].innerHTML = newlikes + " likes";
+		}
+	});
 });
 
 
-// instead of making the like button dissapear, make the text within like button change instead
