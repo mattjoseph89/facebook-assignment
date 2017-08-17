@@ -12,14 +12,26 @@ The overall goal is to implement features that listen for user actions that trig
 - update the number of likes that the post/comment has
 - alter the behavior of the link so it behaves as an Unlike link next time it's clicked
 
+
+
+
+
 ### Clicking 'Comment' (in the `post__actions` area) should...
 
 - Move the cursor into the post's main comment form
+
+<!-- completed so far(move as i go) -->
+
 
 ### Clicking 'Reply' or 'XX replies' should...
 
 - show the replies area for that comment
 - toggle the behavior of the link so that if it's clicked again, it hides the replies area
+
+
+
+
+
 
 ### Submitting a comment form should...
 
