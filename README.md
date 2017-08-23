@@ -20,13 +20,19 @@ The overall goal is to implement features that listen for user actions that trig
 
 - Move the cursor into the post's main comment form
 
-<!-- completed so far(move as i go) -->
-
 
 ### Clicking 'Reply' or 'XX replies' should...
 
 - show the replies area for that comment
 - toggle the behavior of the link so that if it's clicked again, it hides the replies area
+
+
+<!-- completed so far(move as i go) -->
+
+
+
+
+
 
 
 
@@ -39,6 +45,21 @@ The overall goal is to implement features that listen for user actions that trig
 - update the number of comments/replies
     - This includes changing the text of what used to be a 'Reply' link to now read, '1 replies' (or '1 reply', if you're ambitious).
 - add the comment to the correct location in the comments area
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 ### Clicking on someone's name should...
 
